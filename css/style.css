@@ -1,10 +1,14 @@
 * {
   margin: 0;
   padding: 0;
+  font-family: 'Raleway', sans-serif;
 }
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
+}
+.row{
+   margin-right: 0px;
 }
 /***********************header*/
 header {
@@ -40,14 +44,16 @@ h1, .paraf-white {
   padding-bottom: 0.5em;
 }
 h1 {
+  font-family: 'Raleway', sans-serif;
   font-size: 3.3em;
 }
 .paraf-white {
-  font-family: Serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 1.7em;
   padding-bottom: 1em;
 }
 .btn-white {
+  font-family: 'Raleway', sans-serif;
   color: #8383B5;
   padding-top: 0.5em;
   padding-bottom: 0.3em;
@@ -61,25 +67,30 @@ h1 {
 /******************************simple pricing*/
 .background {
   background-color: rgb(242, 242, 242);
-  height: 19em;
 }
 h3 {
+  font-family: 'Raleway', sans-serif;
   color: #a19d9d;
 }
 .dollar {
   float: left;
+  margin-left: 1.5em;
+  padding-right: 2.5em;
 }
 .dollar p {
+  font-family: 'Raleway', sans-serif;
   color: #8383B5;
   font-size: 4.5em;
   font-weight: 500;
 }
 .pair-paid-invoice {
+  font-family: 'Raleway', sans-serif;
   font-size: 2.0em;
   line-height: 2.1em;
   margin-bottom: 0;
 }
 .transaction {
+  font-family: 'Raleway', sans-serif;
   line-height: 0.5em;
   color: #a19d9d;
   font-size: 1.1em;
@@ -93,6 +104,7 @@ h3 {
   padding: 1.5em 0;
 }
 .credit-cards p {
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   font-size: 1.3em;
   margin: 0;
@@ -100,6 +112,8 @@ h3 {
 /*******************6 CARRES*/
 .flex, .flex-reverse {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -108,6 +122,7 @@ h3 {
 }
 .border-grey {
   border-bottom: 1px solid #9b93d0;
+  padding-right: 0;
 }
 .color-blue {
   background-color: #71d7f9;
@@ -121,18 +136,25 @@ h3 {
   border-top-left-radius: 5%;
   border-top-right-radius: 5%;
   width: 60%;
+  margin: auto;
   transform: translateY(19%);
+}
+.desc {
+  width: 64%;
+  margin: auto;
 }
 .vertical-center {
   position: relative;
   top: 3.5em;
 }
-.col-md-8 h4 {
+.flex h4, .flex-reverse h4 {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.7em;
   letter-spacing: 0.15em;
   margin-bottom: 1em;
 }
-.col-md-8 p {
+.flex p, .flex-reverse p {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.25em;
   color: #696969;
 }
@@ -142,6 +164,7 @@ h3 {
     margin-bottom: 40px;
 }
 .col-md-4 h5 {
+  font-family: 'Raleway', sans-serif;
   font-size: 1.3em;
   letter-spacing: 0.15em;
   margin-bottom: 1.2em;
@@ -164,6 +187,7 @@ h3 {
   line-height: 3em;
 }
 .title-ul li a{
+  font-family: 'Raleway', sans-serif;
   color: #fff;
   font-size: 0.9em;
   font-weight: bold;
@@ -183,7 +207,7 @@ li .fa {
 .marge {
   margin-top: 3em;
 }
-/*********************************bubble*/
+/*********************************BUBBLE*/
 .fa.fa-comments {
   color: #fff;
   font-size: 2em;
@@ -214,7 +238,7 @@ li .fa {
   -webkit-box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1);
           box-shadow: inset 0 0px 0 rgba(255, 255, 255, .1);
 }
-/********MEDIA QUERY**************/
+/**************************MEDIA QUERY  XS*/
 @media screen and (min-width: 320px) and (max-width: 640px) {
   .bloc {
     display:block;
@@ -263,6 +287,7 @@ li .fa {
     margin-right: 0;
     margin-left: 0;
   }
+  /***************************DIV FREELANCER*/
   h1 {
     font-size: 1.6em;
   }
@@ -273,9 +298,11 @@ li .fa {
     margin-bottom: 10vh;
     font-size: 0.75em;
   }
+  /***************************SIMPLE PRICING*/
   .background {
-    height: 0;
+    /*height: 0;*/
   }
+  /***************************6 CARRES*/
   .border {
     margin-bottom: 3em;
   }
@@ -296,12 +323,11 @@ li .fa {
   }
   .bg-xs {
     background-color: rgb(242, 242, 242);
-    height: 19em;
   }
-  .col-md-8 h4 {
+  .flex h4 {
     font-size: 1.3em;
   }
-  .col-md-8 p {
+  .flex p {
     font-size: 1em;
     margin-bottom: 6em;
   }
@@ -314,9 +340,6 @@ li .fa {
   .col-xs-12 {
     width: 100%;
   }
-  .coming-soon p {
-    margin-bottom: 7em;
-  }
   .col-md-4 h5 {
     font-size: 1.05em;
   }
@@ -324,7 +347,7 @@ li .fa {
     right: 2em;
     width: 3em;
     height: 3em;
-}
+  }
   .fa.fa-comments {
     color: #fff;
     font-size: 1.7em;
@@ -344,4 +367,83 @@ li .fa {
   .paraf-smartphone {
     margin-bottom: 1em;
   }
+}
+/**************************MEDIA QUERY  SM*/
+@media screen and (min-width: 641px) and (max-width: 767px) {
+  /*************************************HEADER*/
+  .navbar-header {
+      float: none;
+  }
+  .navbar > .container-fluid .navbar-brand {
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 2.5px;
+    margin-left: 0.7em;
+}
+  .navbar-toggle {
+      display: none;
+  }
+  .navbar-collapse {
+      border-top: 1px solid transparent;
+      box-shadow: inset 0 0 0 rgba(255,255,255,0.1);
+  }
+  .navbar-collapse.collapse {
+      display: block;
+  }
+  .navbar-nav {
+      float: none;
+      margin: 7.5px -15px;
+      position: absolute;
+      top: 0px;
+      right: 0;
+  }
+  .navbar-nav>li {
+      float: right;
+  }
+  .navbar-nav>li>a {
+      padding-top: 10px;
+      padding-bottom: 10px;
+  }
+  .navbar-right {
+    text-align: right;
+  }
+  /***********************DIV FREELANCER*/
+  h1 {
+    font-size: 2.4em;
+  }
+  .background {
+    margin-top: 62em;
+  }
+  .top-freelancer {
+    margin: 3.7em 0;
+  }
+  .dollar {
+    margin-left: 10.3em;
+  }
+
+  /************************SIMPLE PRICING*/
+
+  /**************************CREDIT CARDS*/
+  .credit-cards p {
+    font-size: 1.2em;
+  }
+  /******************************6 CARRES*/
+  .border-grey {
+    padding: 0;
+  }
+  .color-blue {
+    width: 103vw;
+  }
+  .color-violet {
+    margin-left: O;
+  }
+  .flex, .flex-reverse {
+    display: block;
+  }
+  .flex-reverse {
+    /*flex-direction: row-reverse;*/
+  }
+  /*********************CREATE AN ACCOUNT*/
+
+  /********************************FOOTER*/
 }
