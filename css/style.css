@@ -310,6 +310,12 @@ li .fa {
   .navbar-brand, .navbar-nav > li > a {
     text-shadow: 0 1px 0 #6565A0;
   }
+  .navbar-toggle {
+    padding: 9px 1px;
+  }
+  .navbar > .container-fluid .navbar-brand {
+    margin-left: 0.8em;
+  }
   .nav > li > a {
     padding: 10px 5px;
   }
