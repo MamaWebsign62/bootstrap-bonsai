@@ -31,6 +31,10 @@ header {
 .navbar-brand > img {
   float: left;
 }
+.navbar-nav > li > a {
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
 .logo-icon {
   width: 1.8em;
   height: 1.8em;
@@ -264,8 +268,27 @@ li .fa {
   }
   .border {
     border-right: 0;
+    border-bottom: 1px solid #8383B5;
   }
+  .border:first-child {
+    margin-top: 45px;
+  }
+  .margin_p {
+    margin: 0 0 45px;
+  }
+  .top-freelancer {
+      margin: 0;
+  }
+  .ecart {
+    padding-right: 0;
+  }
+  .color-blue {
+    padding-right: 0;
+}
   /*******************************NAVBAR*/
+  .navbar {
+    margin-bottom: 0;
+}
   .navbar-nav {
     float: right;
     margin: 0;
@@ -345,14 +368,24 @@ li .fa {
     background-color: rgb(242, 242, 242);
   }
   .flex h4, .flex-reverse h4 {
-    font-size: 1.2em;
-  }
+    font-size: 1.03em;
+    text-align: center;
+    margin-top: 2em;
+}
   .flex p, .flex-reverse p {
     font-size: 1em;
-    margin-bottom: 6em;
+    margin-bottom: 2em;
+    text-align: justify;
   }
-  .border-b {
-    border-bottom: 1px solid #696969;
+  .page-header {
+    margin: 2em;
+  }
+  /****************************ACCOUNT*/
+  .account {
+    background-color: grey;
+  }
+  .no-padding {
+    padding-right: 0;
   }
   .border-grey {
     border-bottom: 0;
