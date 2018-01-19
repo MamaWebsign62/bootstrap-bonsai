@@ -50,12 +50,18 @@ h1 {
   padding-bottom: 1em;
 }
 .btn-white {
+  background: #fff;
+  border-radius: 0.5em;
   color: #8383B5;
-  padding-top: 0.5em;
-  padding-bottom: 0.3em;
-  padding-left: 3em;
-  padding-right: 3em;
+  padding: 0.5em 3em 0.3em;
   letter-spacing: 0.2em;
+  border: none;
+}
+.btn-white:hover {
+  background-color: #6565A0;
+  color: #fff;
+  letter-spacing: 0.2em;
+  border: none;
 }
 .border {
   border-right: 1px solid #8383B5;
@@ -504,11 +510,5 @@ li .fa {
   /*********************CREATE AN ACCOUNT*/
   .account h5 {
     font-size: 1.1em;
-  }
-}
-/**************************MEDIA QUERY  LG*/
-@media screen and (min-width: 1281px) {
-  .dollar {
-      margin-left: 9.5em;
   }
 }
