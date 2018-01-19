@@ -10,7 +10,7 @@
 .row{
    margin-right: 0px;
 }
-/***********************header*/
+/***********************HEADER*/
 header {
   background-image: url(../img/payments-banner-graphic.png);
   background-size: 100% 100%;
@@ -60,7 +60,7 @@ h1 {
 .border {
   border-right: 1px solid #8383B5;
 }
-/******************************simple pricing*/
+/******************************SIMPLE PRICING*/
 .background {
   background-color: rgb(242, 242, 242);
 }
@@ -237,7 +237,7 @@ li .fa {
     right: 26px;
   }
   #back-top:hover {
-      background-color: #fff;
+      background-color: #8383B5;
   }
 #back-top a .fa.fa-chevron-up {
     font-size: 20px;
@@ -248,7 +248,7 @@ li .fa {
     height: 30px;
 }
 #back-top a .fa.fa-chevron-up:hover {
-    color: #696969;
+    color: #fff;
 }
 /**************************MEDIA QUERY  XS*/
 @media screen and (min-width: 320px) and (max-width: 640px) {
@@ -358,7 +358,7 @@ li .fa {
     font-size: 1.05em;
   }
   .radius-footer {
-    right: 2em;
+    right: 1.4em;
     width: 3em;
     height: 3em;
   }
@@ -383,6 +383,10 @@ li .fa {
   }
   .paraf-footer {
     font-size: 0.4em;
+  }
+  /*******************************BACK-TOP*/
+  #back-top {
+    bottom: 84px;
   }
 }
 /**************************MEDIA QUERY  XS*/
@@ -447,9 +451,6 @@ li .fa {
   .dollar {
     margin-left: 10.3em;
   }
-
-  /************************SIMPLE PRICING*/
-
   /**************************CREDIT CARDS*/
   .credit-cards p {
     font-size: 1.2em;
@@ -470,9 +471,6 @@ li .fa {
   .flex-reverse {
     /*flex-direction: row-reverse;*/
   }
-  /*********************CREATE AN ACCOUNT*/
-
-  /********************************FOOTER*/
 }
 /**************************MEDIA QUERY 960-1024*/
 @media screen and (min-width: 960px) and (max-width: 1024px) {
@@ -506,5 +504,11 @@ li .fa {
   /*********************CREATE AN ACCOUNT*/
   .account h5 {
     font-size: 1.1em;
+  }
+}
+/**************************MEDIA QUERY  LG*/
+@media screen and (min-width: 1281px) {
+  .dollar {
+      margin-left: 9.5em;
   }
 }
