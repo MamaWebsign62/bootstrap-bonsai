@@ -86,6 +86,7 @@ h3 {
   color: #8383B5;
   font-size: 4.5em;
   font-weight: 500;
+  margin: 0 0 0 45px;
 }
 .pair-paid-invoice {
   font-size: 2.0em;
@@ -357,7 +358,7 @@ li .fa {
     font-size: 1.3em;
   }
   .dollar {
-    margin-left: 2.7em;
+    margin-left: 0;
     padding-right: 0.5em;
   }
   .pair-paid-invoice {
@@ -369,13 +370,14 @@ li .fa {
   }
   .credit-cards p {
     font-size: 0.9em;
+    margin-left: 1em;
   }
   .bg-xs {
     background-color: rgb(242, 242, 242);
   }
   .flex h4, .flex-reverse h4 {
     font-size: 1.03em;
-    text-align: center;
+    text-align: left;
     margin-top: 2em;
 }
   .flex p, .flex-reverse p {
@@ -403,13 +405,13 @@ li .fa {
     font-size: 1.05em;
   }
   .radius-footer {
-    right: 1.4em;
-    width: 3em;
-    height: 3em;
+    right: 0.4em;
+    width: 2em;
+    height: 2em;
   }
   .fa.fa-comments {
     color: #fff;
-    font-size: 1.7em;
+    font-size: 1.2em;
     margin-left: 0.3em;
     line-height: 1.5em;
   }
@@ -432,16 +434,27 @@ li .fa {
   /*******************************BACK-TOP*/
   #back-top {
     bottom: 84px;
+    right: 5px;
+  }
+}
+/**************************MEDIA QUERY  XS*/
+@media screen and (min-width: 360px) and (max-width: 374px) {
+  /*********************CREATE AN ACCOUNT*/
+  .dollar {
+    margin-left: 1.7em;
+  }
+  .pair-paid-invoice {
+    line-height: 4em;
   }
 }
 /**************************MEDIA QUERY  XS*/
 @media screen and (min-width: 375px) and (max-width: 413px) {
   /*********************CREATE AN ACCOUNT*/
   .dollar {
-    margin-left: 4.5em;
+    margin-left: 3.2em;
   }
   .pair-paid-invoice {
-    line-height: 3em;
+    line-height: 4em;
   }
 }
 /**************************MEDIA QUERY  SM*/
@@ -520,7 +533,7 @@ li .fa {
 /**************************MEDIA QUERY 960-1024*/
 @media screen and (min-width: 960px) and (max-width: 1024px) {
   .dollar {
-    margin-left: 20.5em;
+    margin-left: 18.1em;
   }
   .flex h4, .flex-reverse h4 {
     font-size: 1.3em;
